@@ -21,7 +21,7 @@ Start a container, exposing ports as needed:
 ```bash
 docker run -d --name dfbnc \
               --restart always \
-              -p 33263 \
+              -p 33263:33263 \
               -v dfbnc-data:/var/lib/dfbnc \
               csmith/dfbnc:0.4
 ```
