@@ -13,7 +13,7 @@ docker volume create --name dfbnc-data
 Pull the image for the desired version of DFBnc:
 
 ```bash
-docker pull csmith/dfbnc:0.3
+docker pull csmith/dfbnc:0.4
 ```
 
 Start a container, exposing ports as needed:
@@ -23,7 +23,7 @@ docker run -d --name dfbnc \
               --restart always \
               -p 33263 \
               -v dfbnc-data:/var/lib/dfbnc \
-              csmith/dfbnc:0.3
+              csmith/dfbnc:0.4
 ```
 
 The container exposes these ports:
