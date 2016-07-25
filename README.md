@@ -1,6 +1,8 @@
-# DFBnc Dockerfile
+# DEPRECATED
 
-This is a dockerised version of [DFBnc](https://github.com/ShaneMcC/DFBnc/).
+[DFBnc](https://github.com/ShaneMcC/DFBnc/) now provides docker images itself.
+
+Use the `shanemcc/dfbnc` image from Docker Hub for updates.
 
 ## Usage
 
